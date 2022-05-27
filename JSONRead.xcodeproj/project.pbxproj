@@ -17,6 +17,7 @@
 		5890F63B281ED45800112087 /* JSONReadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890F63A281ED45800112087 /* JSONReadTests.m */; };
 		5890F645281ED45800112087 /* JSONReadUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890F644281ED45800112087 /* JSONReadUITests.m */; };
 		5890F647281ED45800112087 /* JSONReadUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890F646281ED45800112087 /* JSONReadUITestsLaunchTests.m */; };
+		5890F655281EDCA700112087 /* PeopleDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5890F654281EDCA700112087 /* PeopleDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		5890F640281ED45800112087 /* JSONReadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONReadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5890F644281ED45800112087 /* JSONReadUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONReadUITests.m; sourceTree = "<group>"; };
 		5890F646281ED45800112087 /* JSONReadUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONReadUITestsLaunchTests.m; sourceTree = "<group>"; };
+		5890F653281EDCA600112087 /* PeopleDetailsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PeopleDetailsViewController.h; sourceTree = "<group>"; };
+		5890F654281EDCA700112087 /* PeopleDetailsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PeopleDetailsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,6 +118,8 @@
 				5890F62C281ED45700112087 /* LaunchScreen.storyboard */,
 				5890F62F281ED45700112087 /* Info.plist */,
 				5890F630281ED45700112087 /* main.m */,
+				5890F653281EDCA600112087 /* PeopleDetailsViewController.h */,
+				5890F654281EDCA700112087 /* PeopleDetailsViewController.m */,
 			);
 			path = JSONRead;
 			sourceTree = "<group>";
@@ -266,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5890F655281EDCA700112087 /* PeopleDetailsViewController.m in Sources */,
 				5890F626281ED45400112087 /* ViewController.m in Sources */,
 				5890F620281ED45400112087 /* AppDelegate.m in Sources */,
 				5890F631281ED45700112087 /* main.m in Sources */,

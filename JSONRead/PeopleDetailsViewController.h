@@ -9,8 +9,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface PeopleDetailsViewController : UIViewController
-
+@interface PeopleDetailsViewController : UITableViewController
+@property (strong, nonatomic) NSDictionary *details;
 @end
 
 NS_ASSUME_NONNULL_END
